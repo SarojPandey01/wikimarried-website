@@ -11,16 +11,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Navbar Section -->
-    <div class="container-fluid d-flex justify-content-between">
-      <div class="col-lg-4">
-        <a class="navbar-brand text-white" href="#"
-          ><img src="" alt="" height="40px"
+    <div
+      class="container-fluid d-flex justify-content-between bg-white align-items-center nav-container"
+    >
+      <div class="col-lg-4 bg-white align-items-center">
+        <a class="navbar-brand text-white main-logo" href="#"
+          ><img src="./images/79x64.jpeg" alt="logo"
         /></a>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-8 bg-white align-items-center">
         <ul class="d-flex py-4 list-unstyled justify-content-evenly">
           <li class="">
             <a href="#" class="text-decoration-none text-black">Home</a>
@@ -54,6 +57,15 @@
     </div>
     <!-- Navbar Section End  -->
     <!-- Starting of Body Section Upper body -->
+    <div class="recent-update">
+      <div class="update">Recent Update</div>
+      <div class="google-search d-flex">
+        <div class="goog">ENHANCED BY <span class="goo">Google</span></div>
+        <div class="search-space">
+          <input type="search" placeholder="<i class="far fa-search s-1"></i>"/>
+        </div>
+      </div>
+    </div>
 
     <script src="/js/bootstrap.bundle.min.js"></script>
   </body>
